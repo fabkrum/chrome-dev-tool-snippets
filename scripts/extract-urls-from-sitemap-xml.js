@@ -15,5 +15,8 @@ for (var i = 0; i < urls.length; i++) {
 // Remove comma and line-break from last item
 output = output.replace(/,\n\s*$/, "");
 
-// Copy output in Clickboard
+// Show the URL list in the 
 console.log(output);
+
+// Copy output in clipboard
+copy(output);
