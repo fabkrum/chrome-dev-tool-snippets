@@ -1,7 +1,7 @@
 // Credit: Tim Kadlec: https://www.twitch.tv/videos/1066237948
 
 // First get the diagnostic CSS
-let url = ;
+let url = 'https://github.com/fabkrum/chrome-dev-tool-snippets/blob/main/css/perf-diagnostics.css';
 let css;
 
 fetch(url)
