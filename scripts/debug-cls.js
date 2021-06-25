@@ -1,4 +1,6 @@
-// Source: https://web.dev/debug-layout-shifts/
+// Credit: Katie Hempenius / https://web.dev/debug-layout-shifts/
+
+let cls = 0;
 
 new PerformanceObserver((entryList) => {
   for (const entry of entryList.getEntries()) {
